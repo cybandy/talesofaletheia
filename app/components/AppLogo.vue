@@ -4,7 +4,7 @@ const props = withDefaults(defineProps<{
   fromColor?: string
   toColor?: string
 }>(), {
-  id: () => `gradient-${Math.random().toString(36).substring(2, 15)}`,
+  id: () => `gradient-logo-2`,
   fromColor: 'text-(--ui-color-primary-900)',
   toColor: 'text-(--ui-color-secondary-600)'
 })

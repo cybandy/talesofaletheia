@@ -3,47 +3,44 @@ import type { FooterColumn } from '@nuxt/ui'
 
 const columns: FooterColumn[] = [
   {
-    label: 'Community',
+    label: 'Menu',
     children: [
       {
-        label: 'Nuxters',
-        to: 'https://nuxters.nuxt.com',
-        target: '_blank'
+        label: 'Home',
+        to: '/'
       },
       {
-        label: 'Video Courses',
-        to: 'https://masteringnuxt.com/nuxt3?ref=nuxt',
-        target: '_blank'
+        label: 'About',
+        to: '#'
       },
       {
-        label: 'Nuxt on GitHub',
-        to: 'https://github.com/nuxt',
-        target: '_blank'
+        label: 'Stories',
+        to: '#'
+      },
+      {
+        label: 'Contact Us',
+        to: '#'
       }
     ]
   },
   {
-    label: 'Solutions',
+    label: 'Resources',
     children: [
       {
-        label: 'Nuxt Content',
-        to: 'https://content.nuxt.com/',
-        target: '_blank'
+        label: 'F.A.Q',
+        to: '#'
       },
       {
-        label: 'Nuxt DevTools',
-        to: 'https://devtools.nuxt.com/',
-        target: '_blank'
+        label: 'Support',
+        to: '#'
       },
       {
-        label: 'Nuxt Image',
-        to: 'https://image.nuxt.com/',
-        target: '_blank'
+        label: 'Privacy Policy',
+        to: '#'
       },
       {
-        label: 'Nuxt UI',
-        to: 'https://ui.nuxt.com/',
-        target: '_blank'
+        label: 'Terms of Service',
+        to: '#'
       }
     ]
   }
@@ -78,28 +75,17 @@ function onSubmit() {
           :ui="{
             root: 'grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4',
             left: 'sm:mb-0 sm:mt-10 lg:mt-0',
-            center: 'order-none sm:order-first lg:order-none col-span-full lg:col-span-1 grid grid-cols-2',
+            center: 'order-0 sm:order-first lg:order-0 col-span-full lg:col-span-1 grid grid-cols-2',
             right: ' lg:mt-0'
           }"
         >
           <template #left>
             <div class="space-y-2">
-              <AppLogo class="shrink-0 size-16" />
+              <AppLogo class="shrink-0 w-47 h-14" />
               <div class="space-y-0.5">
                 <p class="text-dimmed text-sm">
-                  Boosting Business Through
-                  Digitization
+                  True Inspiring Stories of life
                 </p>
-                <div class="flex items-center">
-                  <UButton
-                    color="neutral"
-                    variant="ghost"
-                    icon="i-lucide-map-pin"
-                  />
-                  <p class="text-dimmed">
-                    Palermo, Italy
-                  </p>
-                </div>
               </div>
             </div>
           </template>
@@ -110,6 +96,12 @@ function onSubmit() {
                 label="Subscribe to our newsletter"
                 size="lg"
               >
+                <template #help>
+                  <span>By subscribing to our newsletter you agree to our <u-link
+                    to="#"
+                    class="text-primary"
+                  >privacy policy</u-link></span>
+                </template>
                 <UInput
                   v-model="email"
                   type="email"

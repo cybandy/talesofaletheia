@@ -15,7 +15,7 @@ defineProps<{
         to="/"
         class=""
       >
-        <AppLogo class="w-[188px] h-14 shrink-0" />
+        <AppLogo class="size-24 shrink-0" />
       </NuxtLink>
     </template>
 
@@ -43,7 +43,7 @@ defineProps<{
         class="-mx-2.5"
       />
 
-      <USeparator class="my-6" />
+      <!-- <USeparator class="my-6" />
 
       <UButton
         label="Join Us"
@@ -66,7 +66,7 @@ defineProps<{
         color="neutral"
         to="/signup"
         block
-      />
+      /> -->
     </template>
   </UHeader>
 </template>
