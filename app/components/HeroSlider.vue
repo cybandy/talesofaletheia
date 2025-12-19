@@ -97,7 +97,7 @@ const { modelValue } = useVModels(props, emits)
         class="w-full h-full"
         :class="hero.class"
         :ui="{
-          container: 'bg-black/40 max-w-full',
+          container: '',
           title: 'text-neutral-50 dark:text-white',
           description: 'text-neutral-300 dark:text-neutral-300',
           root: 'bg-center bg-cover bg'
