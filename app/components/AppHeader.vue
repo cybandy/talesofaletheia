@@ -11,8 +11,11 @@ defineProps<{
     mode="slideover"
   >
     <template #left>
-      <NuxtLink to="/">
-        <AppLogo class="size-10 shrink-0" />
+      <NuxtLink
+        to="/"
+        class=""
+      >
+        <AppLogo class="w-[188px] h-14 shrink-0" />
       </NuxtLink>
     </template>
 
