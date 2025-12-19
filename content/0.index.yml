@@ -1,0 +1,216 @@
+seo:
+  title: Tales of Aletheia | A Creative Writing Platform for Storytellers
+  description: Welcome to Tales of Aletheia, a platform where storytellers craft, share, and discover captivating narratives.
+navigation: false
+hero:
+  - title: Craft Your [Story]{class="text-primary"}
+    description: Every great story begins with a single word. Join a community of passionate writers who believe in the power of storytelling to inspire, transform, and connect. Share your voice, discover new worlds, and become part of a creative journey where imagination knows no bounds.
+    headline: Welcome
+    bg_image:
+      src: '/1.jpg'
+    orientation: 'vertical'
+    links:
+      - label: Start Writing
+        icon: i-lucide-arrow-right
+        trailing: true
+        to: '/join-us'
+        size: md
+      - label: Explore Stories
+        color: neutral
+        variant: subtle
+        to: '#'
+  - title: 'Winter Writing [Challenge]{class="text-primary"} is coming soon'
+    description: Join us this December for our Winter Writing Challenge where writers come together to create, share, and celebrate stories. Whether fantasy, mystery, or memoir, all genres are welcome.
+    headline: Create Together
+    class: bg-cover
+    bg_image:
+      src: '/2.jpg'
+    orientation: 'vertical'
+    links:
+      - label: Join Challenge
+        icon: i-lucide-arrow-right
+        trailing: true
+        to: '/join-us'
+        size: xl
+      - label: Register
+        color: neutral
+        variant: subtle
+        icon: i-lucide-calendar-days
+        to: '#'
+  - title: '[Flash Fiction]{class="text-primary"} [Marathon]{class="text-primary"} On 21 December 2025'
+    description: Challenge yourself with rapid-fire storytelling. Write, refine, and share your best flash fiction pieces in this creative marathon.
+    headline: Write Sprint
+    bg_image:
+      src: '/3.jpg'
+      alt: 'writers creating stories'
+    orientation: 'vertical'
+    links:
+      - label: Join Sprint
+        icon: i-lucide-arrow-right
+        trailing: true
+        to: '/join-us'
+        size: xl
+sections:
+  - title: Join Our Writing Community
+    description: Connect with fellow storytellers in our vibrant online community. Share your work, get feedback, and grow as a writer.
+    headline: Get Started
+    orientation: horizontal
+    reverse: true
+    links:
+      - label: Explore Events
+        trailing: true
+        icon: i-lucide-pen-tool
+        to: '/event'
+        size: xl
+    features:
+      - title: Weekly Workshops
+        description: Every Sunday 10:00 am. Check the event page for schedules and topics.
+        icon: i-lucide-calendar-clock
+      - title: Online Platform
+        description: Write and share from anywhere in the world.
+        icon: i-lucide-map
+        to: '#'
+        target: _blank
+  - title: Who We Are
+    description: We are a community of writers, dreamers, and storytellers passionate about the craft of narrative. Whether you're writing your first story or your hundredth novel, you'll find support, inspiration, and fellow creatives here. All genres, all voices, all welcome.
+    headline: About Us
+    orientation: horizontal
+    reverse: false
+    links:
+      - label: Read more
+        color: neutral
+        to: '/about-us'
+        size: xl
+    features:
+      - title: Mission
+        description: To empower storytellers to craft compelling narratives that resonate and inspire.
+        icon: i-qb-goal
+      - title: Vision
+        description: A world where every voice has a story to tell and a platform to share it.
+        icon: i-qb-vision
+      - title: Values
+        description: Creativity, community, authenticity, and the transformative power of storytelling.
+        icon: i-lucide-heart
+features:
+  title: Everything You Need to Grow as a Writer
+  icon: i-qb-growth
+  description: We believe every writer has a unique voice worth developing. Through workshops, resources, and community support, we help you craft better stories, refine your voice, and share your work with the world.
+  items:
+    - title: Writing Workshops
+      description: Learn the craft from experienced authors. From plot structure to character development, master the tools of storytelling.
+      icon: i-qb-bible-book
+      variant: solid
+      image:
+        src: /sermon-min.jpg
+        alt: writing workshop session
+    - title: Story Library
+      description: Explore thousands of stories across all genres. Discover new voices and find inspiration for your next masterpiece.
+      icon: i-qb-books
+      image:
+        src: /books-min.jpg
+        alt: collection of books in a library
+    - title: Daily Prompts
+      description: Spark your creativity with daily writing prompts. Keep your skills sharp and your imagination flowing.
+      icon: i-qb-books
+      image:
+        src: /devotion-min.jpg
+        alt: Writers working on their craft
+    - title: Writer Development
+      description: Grow your skills through practice, feedback, and mentorship. Become the writer you aspire to be.
+      icon: i-qb-plant-growth
+      image:
+        src: /growth-min.jpg
+        alt: A writer at work at dawn
+    - title: Publishing Paths
+      description: Discover opportunities to publish your work, from traditional publishing to self-publishing and online platforms.
+      icon: i-lucide-briefcase
+      image:
+        src: /career-min.jpg
+        alt: A successful writer with published work
+    - title: Writing Contests
+      description: Participate in contests and challenges to showcase your talent and win recognition for your stories.
+      icon: i-qb-books
+      image:
+        src: /opportunity-min.jpg
+        alt: writers celebrating achievements
+testimonials:
+  headline: Writer Stories
+  title: Finding Your Creative Voice
+  description: Tales of Aletheia has helped countless writers discover their voice and share their stories. Here's what our community members have to say.
+  items:
+    - quote: From the moment I joined, I felt welcomed. This platform gave me the confidence to share my stories and connect with readers who truly appreciate my work.
+      user:
+        name: David Lee
+        description: Fantasy Writer since 2023
+        avatar:
+          src: https://i.pravatar.cc/120?img=2
+
+    - quote: As a beginner writer, finding this community was transformative. The workshops are incredible, and the feedback from fellow writers has helped me grow tremendously.
+      user:
+        name: Maria Gonzalez
+        description: Aspiring Novelist
+        avatar:
+          src: https://i.pravatar.cc/120?img=3
+
+    - quote: We love sharing stories as a family. This platform makes it easy to write together, get feedback, and see our children's creativity flourish.
+      user:
+        name: The Johnson Family
+        description: Family of Writers
+        avatar:
+          src: https://i.pravatar.cc/120?img=4
+
+    - quote: The writing resources are comprehensive and practical. I feel like I'm genuinely improving my craft every week. The feedback from the community is invaluable!
+      user:
+        name: Michael Brown
+        description: Mystery Author
+        avatar:
+          src: https://i.pravatar.cc/120?img=5
+
+    - quote: I discovered this platform while traveling and decided to join a writing challenge. The community is incredibly supportive, and I was inspired to keep writing.
+      user:
+        name: Emily White
+        description: Travel Writer from Canada
+        avatar:
+          src: https://i.pravatar.cc/120?img=6
+
+    - quote: Joining a critique group here changed everything for me. It's where I found real support, honest feedback, and fellow writers who understand the journey.
+      user:
+        name: Kenji Tanaka
+        description: Sci-Fi Writer & Critique Group Leader
+        avatar:
+          src: https://i.pravatar.cc/120?img=7
+
+    - quote: A diverse, international, and creativity-loving community. If you're looking for a supportive writing platform, this is the place to be. We're so grateful to be part of it.
+      user:
+        name: Sarah & Tom Williams
+        description: Romance Writers
+        avatar:
+          src: https://i.pravatar.cc/120?img=8
+
+    - quote: When I had writer's block, the community here helped me push through with encouragement and practical writing exercises. This platform truly supports its writers.
+      user:
+        name: Chloé Dubois
+        description: Memoir Writer
+        avatar:
+          src: https://i.pravatar.cc/120?img=9
+
+    - quote: Finding a supportive writing community as a young professional with limited time was challenging. Tales of Aletheia has been an amazing creative outlet.
+      user:
+        name: Ben Carter
+        description: Tech Worker & Thriller Writer
+        avatar:
+          src: https://i.pravatar.cc/120?img=10
+
+    - quote: What I love most is the authenticity. Writers share honest feedback, stories are heartfelt, and the focus is always on craft and creativity. It's a refreshing and inspiring place to be.
+      user:
+        name: Dr. Anna Ibrahim
+        description: Academic & Historical Fiction Writer
+        avatar:
+          src: https://i.pravatar.cc/120?img=11
+cta:
+  title: Ready to start your writing journey?
+  description: So are we. We can't wait to read your stories and welcome you into our community of passionate storytellers.
+  links:
+    - label: Start Writing Today
+      to: '/join-us'
+      trailingIcon: i-lucide-arrow-right
